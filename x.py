@@ -57,11 +57,11 @@ if st.session_state["button"] == True:
 
 with st.form("my_form"):
  	submitted = st.form_submit_button("Siguiente")  
-if submitted:
-	st.write(q1, q2)	
+	
 
 #Tercera sección 
-if 'num' not in st.session_state:
+if submitted:
+	if 'num' not in st.session_state:
 	st.session_state.num = 0
 choices1 = ['Cisgénero', 'Género no binario', 'Intersexual', 'Gay', 'Lesbiana', 'Transgénero', 'Femenino', 'Masculino', 'Transexual']
 choices2 = ['Hombre', 'Mujer']
