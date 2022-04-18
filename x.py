@@ -80,10 +80,10 @@ choices14 = ['Sexo Pene-Vagina', 'Sexo Vagina-Vagina', 'Sexo Anal', 'Sexo Oral']
 choices15 = ['3 semanas', '2 semanas', '1 mes']
 
 
-qs1 = [(st.write('¿Cual es tu género?'), choices1),
+qs1 = [('¿Cuál es tu género?', choices1),
 ('¿Cual es tu género?', choices1),
 ('¿Cual es tu género?', choices1)]
-qs2 = [('¿Cual fue tu sexo asignado al nacer?', choices2),
+qs2 = [(st.write('¿Cuál fue tu sexo asignado al nacer?'), choices2),
 ('sexo biologico', choices2),
 ('sexo biologico', choices2)]
 qs3 = [('¿Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como el condón?', choices3),
