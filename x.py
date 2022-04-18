@@ -63,7 +63,7 @@ if submitted:
 #Tercera sección 
 if 'num' not in st.session_state:
 	st.session_state.num = 0
-choices1 = ['Cisgénero', 'Género no binario', 'Intersexual', 'Gay', 'Lesbiana', 'Transgénero', 'Femenino', 'Masculino'. 'Transexual']
+choices1 = ['Cisgénero', 'Género no binario', 'Intersexual', 'Gay', 'Lesbiana', 'Transgénero', 'Femenino', 'Masculino', 'Transexual']
 choices2 = ['Hombre', 'Mujer']
 choices3 = ['No', 'Si']
 choices4 = ['No', 'Si']
