@@ -13,20 +13,25 @@ st.header("¡Hola! Bienvenido (a) Sexuapp")
 
 st.write("")
 st.write("")
-st.subheader("Esta aplicación ayuda en la orientación de algunas enfermedades de transmisión sexual a través de una serie de preguntas")
+st.subheader("Historia")
+st.write("")
+st.write("")
+st.subheader("Esta aplicación fue desarrollada por dos estudiantes de posgrado de la Universidad Autónoma de Chihuahua con el fin de ayudar en la orientación de algunas enfermedades de transmisión sexual a través de una serie de preguntas")
 st.write("")
 st.write("")
 st.write("Es corta, segura y anónima. Tu información será cuidadosamente analizada y podrás aprender acerca de las posibles causas de tus síntomas")
+st.write("")
+st.write("")
 st.write("")
 st.write("")
 
 
 #Sección 2: Términos y condiciones
 
-st.subheader("Términos de condiciones")
+st.subheader("Términos y condiciones")
 st.write("")
 st.write("")
-st.write("Antes de comenzar a usar la aplicación, es necesario que leas los términos de condiciones")
+st.write("Antes de comenzar a usar la aplicación, es necesario que leas los términos y condiciones")
 
 
 
