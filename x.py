@@ -58,7 +58,7 @@ if st.session_state["button"] == True:
 with st.form("my_form"):
  	submitted = st.form_submit_button("Siguiente")  
 if submitted:
-	st.write("Quizz")	
+	st.write(q1, q2)	
 
 #Tercera sección 
 if 'num' not in st.session_state:
@@ -83,7 +83,7 @@ choices15 = ['3 semanas', '2 semanas', '1 mes']
 qs1 = [('¿Cuál es tu género?', choices1),
 ('¿Cual es tu género?', choices1),
 ('¿Cual es tu género?', choices1)]
-qs2 = [(st.write('¿Cuál fue tu sexo asignado al nacer?'), choices2),
+qs2 = [('¿Cuál fue tu sexo asignado al nacer?'), choices2),
 ('sexo biologico', choices2),
 ('sexo biologico', choices2)]
 qs3 = [('¿Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como el condón?', choices3),
