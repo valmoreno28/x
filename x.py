@@ -52,7 +52,7 @@ if st.session_state["button"] == True:
 
 with st.form("my_form"):
  	submitted = st.form_submit_button("Siguiente")  
-   	if submitted:
+if submitted:
    	
 
 #Tercera sección 
