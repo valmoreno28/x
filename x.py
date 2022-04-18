@@ -9,7 +9,7 @@ st.write("")
 st.write("")
 
 	
-st.write(("¡Hola! Bienvenido (a) Sexuapp"), cliked.st.session_state["button"] = button2)
+st.header("¡Hola! Bienvenido (a) Sexuapp")
 
 st.write("")
 st.write("")
