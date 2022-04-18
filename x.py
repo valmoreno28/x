@@ -48,7 +48,7 @@ if st.session_state["button"] == True:
     st.write("")
     st.session_state["button"] = False
     st.write("Lamentamos que no quisieras participar en nuestra app. Muchas gracias por visitarnos.")
- st.stop()
+    st.stop()
 
 with st.form("my_form"):
  	submitted = st.form_submit_button("Siguiente")  
