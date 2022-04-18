@@ -61,7 +61,8 @@ if submitted:
 	st.write("Quizz")	
 
 #Tercera sección 
-
+if 'num' not in st.session_state:
+	st.session_state.num = 0
 choices1 = ['Cisgénero', 'Género no binario', 'Intersexual', 'Gay', 'Lesbiana', 'Transgénero', 'Femenino', 'Masculino', 'Transexual']
 choices2 = ['Hombre', 'Mujer']
 choices3 = ['No', 'Si']
@@ -79,7 +80,7 @@ choices14 = ['Sexo Pene-Vagina', 'Sexo Vagina-Vagina', 'Sexo Anal', 'Sexo Oral']
 choices15 = ['3 semanas', '2 semanas', '1 mes']
 
 
-qs1 = [('¿Cual es tu género?', choices1),
+qs1 = [(st.write('¿Cual es tu género?'), choices1),
 ('¿Cual es tu género?', choices1),
 ('¿Cual es tu género?', choices1)]
 qs2 = [('¿Cual fue tu sexo asignado al nacer?', choices2),
