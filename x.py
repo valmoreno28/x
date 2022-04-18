@@ -56,7 +56,7 @@ if st.session_state["button"] == True:
     st.stop()
 
 with st.form("my_form"):
- 	submitted = st.form_submit_button("Siguiente")  
+ 	submitted = st.form_submit_button(label="Siguiente", onclick=my_form)  
 if submitted:
    	
 
