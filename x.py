@@ -63,69 +63,68 @@ if submitted:
 #Tercera sección 
 if 'num' not in st.session_state:
 	st.session_state.num = 0
-choices1 = ['Cisgénero', 'Crossdresser', 'Drag king', 'Drag queen', 'Disforia de género', 'Fluidez de género', 'género no binario', 'Genderqueer ', 'Intersexual', 'Transgénero', 'Hombre transgénero', 'Mujer transgénero ', 'Gay', 'Inconformidad de género', 'Lesbiana', 'Intersexual', 'Poliamoroso', 'Femenino', 'Masculino', 'Chico', 'Chica', 'Tomboy', 'Hombre joven', 'Mujer joven', 'Hombre transexual', 'Mujer transexual',
-'Bigénero', 'Intersexual', 'Sin género', 'No estoy seguro', 'Prefiero no decir', 'Otro']
+choices1 = ['Cisgénero', 'Género no binario', 'Intersexual', 'Gay', 'Lesbiana', 'Transgénero', 'Femenino', 'Masculino'. 'Transexual']
 choices2 = ['Hombre', 'Mujer']
 choices3 = ['No', 'Si']
 choices4 = ['No', 'Si']
-choices5 = ['Llagas', 'Hinchazon', 'Verrugas', 'Inflamacion, enrojecimiento o irritacion (Dentro o fuera de los genitales)']
-choices6 = ['Orinar', 'Durante el acto sexual', 'Despues de eyacular']
-choices7 = ['Pene', 'Testiculos', 'No presento este sintoma']
+choices5 = ['Llagas', 'Hinchazón', 'Verrugas', 'Inflamación, Enrojecimiento o irritación (Dentro o fuera de los genitales)']
+choices6 = ['Orinar', 'Durante el acto sexual', 'Después de eyacular']
+choices7 = ['Pene', 'Testículos', 'No presento este síntoma']
 choices8 = ['Si cuento con ardor', 'No cuento con ardor']
 choices9 = ['Si', 'No']
-choices10 = ['Indoloras', 'dolorosas', 'No presento este sintoma']
-choices11 = ['Desaparecieron solas,' 'Desaparecieron con algun Tratamiento', 'No presente Llagas']
-choices12 = ['Si', 'No', 'No presente Llagas']
-choices13 = ['Secrecion (Pene)', 'Secrecion Vagina']
+choices10 = ['Indoloras', 'Dolorosas', 'No presento este síntoma']
+choices11 = ['Desaparecieron solas,' 'Desaparecieron con algun tratamiento', 'No presente llagas']
+choices12 = ['Si', 'No', 'No presente llagas']
+choices13 = ['Secreción (Pene)', 'Secreción Vagina']
 choices14 = ['Sexo Pene-Vagina', 'Sexo Vagina-Vagina', 'Sexo Anal', 'Sexo Oral']
 choices15 = ['3 semanas', '2 semanas', '1 mes']
 
 
-qs1 = [('Cual es tu genero?', choices1),
-('sexo biologico', choices1),
-('sexo biologico', choices1)]
-qs2 = [('Cual fue tu sexo asignado al nacer?', choices2),
+qs1 = [('¿Cual es tu género?', choices1),
+('¿Cual es tu género?', choices1),
+('¿Cual es tu género?', choices1)]
+qs2 = [('¿Cual fue tu sexo asignado al nacer?', choices2),
 ('sexo biologico', choices2),
 ('sexo biologico', choices2)]
-qs3 = [('Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como el condon?', choices3),
-('Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como el condon?', choices3),
-('Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como el condon?', choices3)]
-qs4 = [('Haz practicado sexo sin condon?', choices4),
-('Haz practicado sexo sin condon?', choices4),
-('Haz practicado sexo sin condon?', choices4)]
-qs5 = [('Haz presentado alguno de estos sintomas?', choices5),
-('Haz presentado alguno de estos sintomas?', choices5),
-('Haz presentado alguno de estos sintomas?', choices5)]
-qs6 = [('Haz presentado ardor en el pene?', choices5),
-('Haz presentado ardor en el pene?', choices5),
-('Haz presentado ardor en el pene?', choices5)]
-qs7 = [('La hinchazon fue en?', choices5),
-('La hinchazon fue en?', choices5),
-('La hinchazon fue en?', choices5)]
+qs3 = [('¿Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como el condón?', choices3),
+('¿Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como el condón?', choices3),
+('¿Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como el condón?', choices3)]
+qs4 = [('¿Haz practicado sexo sin condón?', choices4),
+('¿Haz practicado sexo sin condón?', choices4),
+('¿Haz practicado sexo sin condón?', choices4)]
+qs5 = [('¿Haz presentado alguno de estos síntomas?', choices5),
+('¿Haz presentado alguno de estos síntomas?', choices5),
+('¿Haz presentado alguno de estos síntomas?', choices5)]
+qs6 = [('¿Haz presentado ardor en el pene?', choices5),
+('¿Haz presentado ardor en el pene?', choices5),
+('¿Haz presentado ardor en el pene?', choices5)]
+qs7 = [('¿Dónde fue la hinchazón?', choices5),
+('¿Dónde fue la hinchazón?', choices5),
+('¿Dónde fue la hinchazón?', choices5)]
 qs8 = [('Haz presentado ardor en los genitales?', choices6),
-('Haz presentado ardor en los genitales?', choices6),
-('Haz presentado ardor en los genitales?', choices6)]
-qs9 = [('¿Presentas Llagas?', choices6),
-('¿Presentas Llagas?', choices6),
-('¿Presentas Llagas?', choices6)]
+('¿Haz presentado ardor en los genitales?', choices6),
+('¿Haz presentado ardor en los genitales?', choices6)]
+qs9 = [('¿Presentas llagas?', choices6),
+('¿Presentas llagas?', choices6),
+('¿Presentas llagas?', choices6)]
 qs10 = [('En caso de presentar llagas, estas son...?', choices6),
 ('En caso de presentar llagas, estas son...?', choices6),
 ('En caso de presentar llagas, estas son...?', choices6)]
 qs11 = [('En caso de Haber presentado Llagas, estas...?', choices6),
-('En caso de Haber presentado Llagas, estas...?', choices6),
-('En caso de Haber presentado Llagas, estas...?', choices6)]
-qs12 = [('En caso de haber presentado Llagas, y estas hubiesen desaparecido solas, en un periodo de un año (aproximadamente) despues de desaparecer (solas) presentaste sintomas como, Fiebre?, Dolor de Garganta, o Ganglios linfaticos inflados intermientemente durante este perido (Despues de la desaparicion)?', choices6),
-('En caso de haber presentado Llagas, y estas hubiesen desaparecido solas, en un periodo de un año (aproximadamente) despues de desaparecer (solas) presentaste sintomas como, Fiebre?, Dolor de Garganta, o Ganglios linfaticos inflados intermientemente durante este perido (Despues de la desaparicion)?', choices6),
-('En caso de haber presentado Llagas, y estas hubiesen desaparecido solas, en un periodo de un año (aproximadamente) despues de desaparecer (solas) presentaste sintomas como, Fiebre?, Dolor de Garganta, o Ganglios linfaticos inflados intermientemente durante este perido (Despues de la desaparicion)?', choices6)]
-qs13 = [('Haz presentado algun tipo de secrecion inusual en los genitales?', choices7),
-('Haz presentado algun tipo de secrecion inusual en los genitales?', choices7),
-('Haz presentado algun tipo de secrecion inusual en los genitales?', choices7)]
-qs14 = [('Como fue la practica sexual de la que sospechas pudiste haberte contagiado?', choices7),
-('Como fue la practica sexual de la que sospechaspudiste haberte contagiado?', choices7),
-('Como fue la practica sexual de la que sospechaspudiste haberte contagiado?', choices7)]
-qs15 = [('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices7),
-('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices7),
-('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices7)]
+('En caso de Haber presentado llagas, estas...?', choices6),
+('En caso de Haber presentado llagas, estas...?', choices6)]
+qs12 = [('En caso de haber presentado Llagas, y estas hubiesen desaparecido solas, en un periodo de un año (aproximadamente) después de desaparecer (solas) presentaste síntomas como: Fiebre, Dolor de Garganta o Ganglios linfáticos inflados intermientemente durante este periodo (Despues de la desaparición)?', choices6),
+('En caso de haber presentado llagas, y estas hubiesen desaparecido solas, en un periodo de un año (aproximadamente) después de desaparecer (solas) presentaste síntomas como: Fiebre, Dolor de Garganta o Ganglios linfáticos inflados intermientemente durante este periodo (Despues de la desaparición)?', choices6),
+('En caso de haber presentado llagas, y estas hubiesen desaparecido solas, en un periodo de un año (aproximadamente) después de desaparecer (solas) presentaste síntomas como: Fiebre, Dolor de Garganta o Ganglios linfáticos inflados intermientemente durante este periodo (Despues de la desaparición)?', choices6)]
+qs13 = [('¿Haz presentado algún tipo de secreción inusual en los genitales?', choices7),
+('¿Haz presentado algún tipo de secreción inusual en los genitales?', choices7),
+('¿Haz presentado algún tipo de secreción inusual en los genitales?', choices7)]
+qs14 = [('¿Cómo fue la práctica sexual de la que sospechas pudiste haberte contagiado?', choices7),
+('¿Cómo fue la práctica sexual de la que sospechas pudiste haberte contagiado?', choices7),
+('¿Cómo fue la práctica sexual de la que sospechas pudiste haberte contagiado?', choices7)]
+qs15 = [('¿Cuál consideras fue el lapso entre la relacion sexual sospechosa y la presencia de estos síntomas?', choices7),
+('¿Cuál consideras fue el lapso entre la relacion sexual sospechosa y la presencia de estos síntomas?', choices7),
+('¿Cuál consideras fue el lapso entre la relacion sexual sospechosa y la presencia de estos síntomas?', choices7)]
 
 
 def main():
