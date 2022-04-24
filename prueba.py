@@ -1,8 +1,8 @@
 import streamit as st
 
-choices2 = [({'Hombre'}, suma = 0), ({'Mujer'}, suma= suma + 2]
-choices3 = [({'No'}, suma = 0), ({'Si'}, suma = 2)]
-choices4 = [({'No'}, suma = 0), ({'Si'}, suma = 2]
+choices2 = [('Hombre', suma = 0), ('Mujer', suma= suma + 2)]
+choices3 = [('No', suma = 0), ('Si', suma = suma + 2)]
+choices4 = [('No', suma = 0), ('Si', suma = suma + 2)]
 
 qs2 = [('¿Cual fue tu sexo asignado al nacer?', choices2),
 ('sexo biologico', choices2),
