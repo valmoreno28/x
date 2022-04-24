@@ -11,7 +11,8 @@ with placeholder.form(key=str(num)):
 	st.radio(qs3[num][0], key=num+1, options=qs4[num][1])
 
 
-choices2 = [('Hombre', suma = 0), ('Mujer', suma2= 2)]
+choices2 = ['Hombre', 'Mujer']
+
 qs2 = [('¿Cual fue tu sexo asignado al nacer?', choices2),
 ('sexo biologico', choices2),
 ('sexo biologico', choices2)]
