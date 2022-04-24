@@ -19,12 +19,12 @@ choices2 = [('Hombre', suma = 0), ('Mujer', suma= suma + 2)]
 qs3 = [('¿Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como el condón?', choices3),
 ('¿Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como el condón?', choices3),
 ('¿Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como el condón?', choices3)]
-choices3 = [({'No'}, suma1 = 0), ({'Si'}, suma1 = suma + 2)]
+choices3 = [({'No'}, suma1 = 0), ({'Si'}, suma1 = suma1 + 2)]
 
 qs4 = [('¿Haz practicado sexo sin condón?', choices4),
 ('¿Haz practicado sexo sin condón?', choices4),
 ('¿Haz practicado sexo sin condón?', choices4)]
-choices4 = [({'No'}, suma2 = 0), ({'Si'}, suma2 = suma + 2)]
+choices4 = [({'No'}, suma2 = 0), ({'Si'}, suma2 = suma1 + 2)]
 
 	
 	
