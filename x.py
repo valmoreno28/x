@@ -60,9 +60,9 @@ with st.form("my_form"):
 	
 
 #Tercera sección 
-if submitted:
+with submitted:
 	if 'num' not in st.session_state:
-with st.session_state.num = 0
+		st.session_state.num = 0
 choices1 = ['Cisgénero', 'Género no binario', 'Intersexual', 'Gay', 'Lesbiana', 'Transgénero', 'Femenino', 'Masculino', 'Transexual']
 choices2 = ['Hombre', 'Mujer']
 choices3 = ['No', 'Si']
