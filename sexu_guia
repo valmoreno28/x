@@ -1,0 +1,46 @@
+import streamlit as st
+
+#Seccion 1: Presentación
+my_page = st.sidebar.radio('Página de navegación', ["Historia", "Hombres", "Mujeres"])
+
+if my_page == 'Historia':
+    st.title("Sexuapp")
+    button = st.button("Historia")
+    if button:
+        st.write("")
+	st.write("")
+	st.write("")
+	st.write("")
+
+st.header("¡Hola! Bienvenido (a) Sexuapp")
+
+st.write("")
+st.write("")
+st.subheader("Historia")
+st.write("")
+st.write("")
+st.subheader("Esta guía fue desarrollada por dos estudiantes de posgrado de la Universidad Autónoma de Chihuahua con el fin de ayudar en la orientación de algunas enfermedades de transmisión sexual a través de la descripción de síntomas comúnmente presentados.")
+st.write("")
+st.write("")
+st.write("Podrás aprender acerca de las posibles causas de tus síntomas")
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+
+
+elif:
+    st.title("Hombres")
+    slide = st.slider("Hombres")
+    st.write("")
+    st.write("")
+    
+    
+else: 
+    st.title("Mujeres")
+    slide = st.slider("Mujeres")
+    st.write("")
+    st.write("")
+    slide
+
+
