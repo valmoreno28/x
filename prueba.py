@@ -14,7 +14,7 @@ with placeholder.form(key=str(num)):
 qs2 = [('¿Cual fue tu sexo asignado al nacer?', choices2),
 ('sexo biologico', choices2),
 ('sexo biologico', choices2)]
-choices2 = [({'Hombre'}, suma = 0), ({'Mujer'}, suma= suma + 2)]
+choices2 = [('Hombre', suma = 0), ('Mujer', suma= suma + 2)]
 
 qs3 = [('¿Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como el condón?', choices3),
 ('¿Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como el condón?', choices3),
