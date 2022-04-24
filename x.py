@@ -40,28 +40,11 @@ st.write("•No lo uses en emergencias. En caso de emergencias médicas, es mejo
 st.write("•Tus datos están seguros. La información que tu brindes será anónima y no será compartida con nadie más.")
 st.write("")
 st.write("")
-
-st.caption("Al dar click en el botón de siguiente aceptas términos y condiciones.")
-
-
-button2= st.button("Atrás")
-	
-if st.session_state.get("button") != True:
-   st.session_state["button"] = button2
-if st.session_state["button"] == True:
-
-    st.write("")
-    st.session_state["button"] = False
-    st.write("Lamentamos que no quisieras participar en nuestra app. Muchas gracias por visitarnos.")
-    st.stop()
-
-with st.form("my_form"):
- 	submitted = st.form_submit_button("Siguiente")  
-	
+st.success("Si aceptas, continua en la barra lateral")
 
 #Tercera sección 
-with submitted:
-	with 'num' not in st.session_state:
+
+if 'num' not in st.session_state:
 		st.session_state.num = 0
 choices1 = ['Cisgénero', 'Género no binario', 'Intersexual', 'Gay', 'Lesbiana', 'Transgénero', 'Femenino', 'Masculino', 'Transexual']
 choices2 = ['Hombre', 'Mujer']
