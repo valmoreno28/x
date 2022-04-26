@@ -2,6 +2,15 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 image1 = Image.open('bienvenida.png')
+image2 = Image.open('s1.png')
+image3 = Image.open('s2.png')
+image4 = Image.open('s3.png')
+image5 = Image.open('s4.png')
+image6 = Image.open('s5.png')
+
+
+
+
 
 
 #Seccion 1: Presentación
@@ -195,7 +204,21 @@ if my_page == "VIH/SIDA":
 	st.title("VIH/SIDA")
 	st.write("")
 	st.write("")
-	
+	st.image(image2)
+	st.write("")
+	st.write("")
+	st.image(image3)
+	st.write("")
+	st.write("")
+	st.image(image4)
+	st.write("")
+	st.write("")
+	st.image(image5)
+	st.write("")
+	st.write("")
+	st.image(image6)
+	st.write("")
+	st.write("")
     
 
 if my_page == "Referencias bibliográficas":
