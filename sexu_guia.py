@@ -100,7 +100,7 @@ if my_page == "Hombres":
         	st.write('Tu médico te recomendará las instrucciones a seguir una vez diagnosticado') 
         	st.info('POR FAVOR, ¡CHÉCATE!')
 	if 'Irritación, enrojecimiento o ardor' in option:
-        	st.write('Este síntoma se puede debe a varias causas entre las cuales existe la presencia de alguna infección o la portación de microrganismos como el causante de la Trichomoniasis por el parásito Tricomonas vaginallis o la infección por balanianitis causada por contacto con el hongo Candida albicans; ambas presentan enrojecimiento, picazón y sensación de ardor en el pene al orinar o mantener relaciones sexuales.') 
+        	st.write('Este síntoma se puede deber a varias causas entre las cuales existe la presencia de alguna infección o la portación de microrganismos como el causante de la Trichomoniasis por el parásito Tricomonas vaginallis o la infección por balanianitis causada por contacto con el hongo Candida albicans; ambas presentan enrojecimiento, picazón y sensación de ardor en el pene al orinar o mantener relaciones sexuales.') 
         	st.write('En ambos casos es ocasionado por el contacto sexual vaginal con parejas portadoras de los microoganismos señalados que presentan Candidiasis y Trichomoniasis.') 
         	st.write('')
         	st.write('') 
