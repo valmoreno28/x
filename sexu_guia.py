@@ -17,22 +17,22 @@ if my_page == "Historia":
 	st.subheader("Historia")
 	st.write("")
 	st.write("")
-	st.subheader("En Sexuapp estamos felices que nos visites sin importar tu sexo, orientación sexual, género o preferencia sexual, únicamente nos dirigiremos a ti en base a tu sexo asignado al nacer para poder ayudarte con información oportuna para la orientación que te podemos ofrecer en nuestra app.")
+	st.write("En Sexuapp estamos felices que nos visites sin importar tu sexo, orientación sexual, género o preferencia sexual, únicamente nos dirigiremos a ti en base a tu sexo asignado al nacer para poder ayudarte con información oportuna para la orientación que te podemos ofrecer en nuestra app.")
 	st.write("")
 	st.write("")
-	st.subheader("Esta aplicación tiene como objetivo dar un primer acercamiento hacia la información relevante sobre las infecciones de trasmisión sexual (ITS), con una primera orientación hacia algunos de los síntomas que pueden presentarse en las enfermedades de transmisión sexual (Tricomoniasis, Gonorrea, Sífilis, Clamidia, Infección por Virus del Papiloma Humano (VPH), Infección por virus del VIH, Vaginitis bacteriana y  Candidiasis) así como posibles complicaciones y algunos consejos para mantener una vida sexual sana.")
+	st.write("Esta aplicación tiene como objetivo dar un primer acercamiento hacia la información relevante sobre las infecciones de trasmisión sexual (ITS), con una primera orientación hacia algunos de los síntomas que pueden presentarse en las enfermedades de transmisión sexual (Tricomoniasis, Gonorrea, Sífilis, Clamidia, Infección por Virus del Papiloma Humano (VPH), Infección por virus del VIH, Vaginitis bacteriana y  Candidiasis) así como posibles complicaciones y algunos consejos para mantener una vida sexual sana.")
 	st.write("")
 	st.write("")
-	st.subheader("Se estima que cada año alrededor del mundo adquieren 374 millones de nuevas infecciones de trasmisión sexual (ITS) únicamente de 4 ITS; Tricomoniasis, Gonorrea, Sífilis y Clamidia, por tanto, esto quiere decir que aproximadamente 1 millón de nuevas infecciones son adquiridas por día alrededor del mundo. Además, la mayoría de estas son asintomáticas por lo cual es aún más probable que esta cifra se vea alterada.")
+	st.write("Se estima que cada año alrededor del mundo adquieren 374 millones de nuevas infecciones de trasmisión sexual (ITS) únicamente de 4 ITS; Tricomoniasis, Gonorrea, Sífilis y Clamidia, por tanto, esto quiere decir que aproximadamente 1 millón de nuevas infecciones son adquiridas por día alrededor del mundo. Además, la mayoría de estas son asintomáticas por lo cual es aún más probable que esta cifra se vea alterada.")
 	st.write("")
 	st.write("")
-	st.subheader("Según cifras del IMSS (2019), el 30 % de las personas de entre 18 y 30 años de edad en el país han contraído alguna infección de trasmisión sexual al menos una vez en su vida.")
+	st.write("Según cifras del IMSS (2019), el 30 % de las personas de entre 18 y 30 años de edad en el país han contraído alguna infección de trasmisión sexual al menos una vez en su vida.")
 	st.write("")
 	st.write("")
-	st.subheader("En el año 2020, en el estado de Chihuahua se reportaba Vulvovaginitis y Candidiasis entre las 20 primeras causas de morbilidad en mujeres en el estado de Chihuahua en la población joven (18-29 años de edad) (INEGI, 2020) fue de aproximadamente de 68 %, del total registrado.")
+	st.write("En el año 2020, en el estado de Chihuahua se reportaba Vulvovaginitis y Candidiasis entre las 20 primeras causas de morbilidad en mujeres en el estado de Chihuahua en la población joven (18-29 años de edad) (INEGI, 2020) fue de aproximadamente de 68 %, del total registrado.")
 	st.write("")
 	st.write("")
-	st.subheader("La edad joven de chihuahua (18-29 años de edad) según INEGI, (2020) representa aproximadamente el 25% de la población del estado (INEGI, 2021) lo cual resulta de suma importancia ya que aproximadamente el 50 % de las (ITS) nuevas se adquieren antes de los 25 años de edad (Stanford Childrens Health, 2022).")
+	st.write("La edad joven de chihuahua (18-29 años de edad) según INEGI, (2020) representa aproximadamente el 25% de la población del estado (INEGI, 2021) lo cual resulta de suma importancia ya que aproximadamente el 50 % de las (ITS) nuevas se adquieren antes de los 25 años de edad (Stanford Childrens Health, 2022).")
 	st.write("")
 	st.write("")
 	st.image("https://github.com/valmoreno28/guia/blob/main/bienvenida.png")
@@ -270,13 +270,3 @@ if my_page == "Referencias bibliográficas":
     st.write("")
     st.write("")
     st.write("")
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
