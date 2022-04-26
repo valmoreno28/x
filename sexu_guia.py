@@ -9,10 +9,6 @@ image5 = Image.open('s4.png')
 image6 = Image.open('s5.png')
 
 
-
-
-
-
 #Seccion 1: Presentación
 my_page = st.sidebar.radio("Página de navegación", ["Historia", "Hombres", "Mujeres", "VIH/SIDA", "Referencias bibliográficas"])
 
@@ -112,6 +108,7 @@ if my_page == "Hombres":
         	st.write('En ambos casos necesitarás visitar a tu médico que aplicará el tratamiento correspondiente dependiendo del patógeno.') 
         	st.info('POR FAVOR, CHÉCATE!')
 
+#Sección de mujeres
 if my_page == "Mujeres":
 	st.title("Mujeres")
 	st.write("")
@@ -200,6 +197,7 @@ if my_page == "Mujeres":
 		st.info('POR FAVOR, ¡CHÉCATE!')
 
 
+#Sección de VIH/SIDA
 if my_page == "VIH/SIDA":
 	st.title("VIH/SIDA")
 	st.write("")
@@ -220,7 +218,7 @@ if my_page == "VIH/SIDA":
 	st.write("")
 	st.write("")
     
-
+#Sección de referencias bibliográficas
 if my_page == "Referencias bibliográficas":
     st.title("Referencias bibliográficas")
     st.write("")
