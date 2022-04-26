@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 from PIL import Image
-image = Image.open('bienvenida.png')
+image1 = Image.open('bienvenida.png')
 
 
 #Seccion 1: Presentación
@@ -38,7 +38,7 @@ if my_page == "Historia":
 	st.write("La edad joven de chihuahua (18-29 años de edad) según INEGI, (2020) representa aproximadamente el 25% de la población del estado (INEGI, 2021) lo cual resulta de suma importancia ya que aproximadamente el 50 % de las (ITS) nuevas se adquieren antes de los 25 años de edad (Stanford Childrens Health, 2022).")
 	st.write("")
 	st.write("")
-	st.image(image)
+	st.image(image1)
 	st.write("")
 	st.write("")
 	st.write("")
