@@ -195,6 +195,7 @@ if my_page == "VIH/SIDA":
 	st.title("VIH/SIDA")
 	st.write("")
 	st.write("")
+	
     
 
 if my_page == "Referencias bibliográficas":
@@ -237,7 +238,7 @@ if my_page == "Referencias bibliográficas":
     st.write("🔹En línea, consultado el 15 de abril del 2022: ")
     st.write("https://www.mayoclinic.org/es-es/diseases-conditions/bacterial-vaginosis/symptoms-causes/syc-20352279")
     st.write("")
-    st.write("En línea, consultado el 15 de abril del 2022: ")
+    st.write("🔹En línea, consultado el 15 de abril del 2022: ")
     st.write("https://www.mayoclinic.org/es-es/diseases-conditions/yeast-infection/symptoms-causes/syc-20378999")
     st.write("")
     st.write("")
