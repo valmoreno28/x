@@ -1,6 +1,6 @@
 import streamlit as st
-#from PIL import Image
-#image = Image.open('bienvenida.png')
+from PIL import Image
+image = Image.open('bienvenida.png')
 
 
 #Seccion 1: Presentación
@@ -37,10 +37,12 @@ if my_page == "Historia":
 	st.write("La edad joven de chihuahua (18-29 años de edad) según INEGI, (2020) representa aproximadamente el 25% de la población del estado (INEGI, 2021) lo cual resulta de suma importancia ya que aproximadamente el 50 % de las (ITS) nuevas se adquieren antes de los 25 años de edad (Stanford Childrens Health, 2022).")
 	st.write("")
 	st.write("")
-	st.image("https://github.com/valmoreno28/x/blob/main/bienvenida.png")
+	st.image(image)
 	st.write("")
 	st.write("")
 	st.write("")
+
+#Sección de hombres
 
 if my_page == "Hombres":
 	st.title("Hombres")
@@ -71,7 +73,7 @@ if my_page == "Hombres":
         	st.warning('Entre sus complicaciones puedes presentar infertilidad y afectación en las articulaciones, así como también aumenta la posibilidad de contraer VIH/SIDA.') 
         	st.write('')
         	st.write('')
-        	st.subheader('¿Cuál es el tratamiento adecuado para mí?') 
+        	st.subheader('¿Cuál es el tratamiento?') 
         	st.write('Deberás acudir con tu médico ante síntomas o sospechas de gonorrea y este te asignará un tratamiento adecuado tanto para ti como tu pareja.') 
         	st.write('')
         	st.write('')
@@ -88,7 +90,7 @@ if my_page == "Hombres":
         	st.warning('Las complicaciones a largo plazo es que aumentan la posibilidad de presentar cáncer en pene, boca, ano y garganta,')
         	st.write('')
         	st.write('')
-        	st.subheader('¿Cuál es el tratamiento adecuado para mí?') 
+        	st.subheader('¿Cuál es el tratamiento?') 
         	st.write('Tu médico te recomendará las instrucciones a seguir una vez diagnosticado') 
         	st.info('POR FAVOR, ¡CHÉCATE!')
 	if 'Irritación, enrojecimiento o ardor' in option:
