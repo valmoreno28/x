@@ -1,6 +1,6 @@
 import streamlit as st
-#from PIL import Image
-#image = Image.open('bienvenida.png')
+from PIL import Image
+image = Image.open('bienvenida.png')
 
 
 #Seccion 1: Presentación
