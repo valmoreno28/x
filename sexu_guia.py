@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import Image
+from PIL import bienvenida.png
 image = Image.open('bienvenida.png')
 
 
