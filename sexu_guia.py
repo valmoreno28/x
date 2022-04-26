@@ -5,7 +5,7 @@ image = Image.open('bienvenida.png')
 
 
 #Seccion 1: Presentación
-my_page = st.sidebar.radio("Página de navegación", ["Historia", "Hombres", "Mujeres", "VIH/SIDA" "Referencias bibliográficas"])
+my_page = st.sidebar.radio("Página de navegación", ["Historia", "Hombres", "Mujeres", "VIH/SIDA", "Referencias bibliográficas"])
 
 if my_page == "Historia":
 	st.title("Sexuapp")
